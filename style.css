@@ -1,0 +1,783 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    width: 97%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #002f36;
+    font-weight: 900;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.item img {
+    height: 25px;
+    margin-right: 8px;
+    padding: 8px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(0, 47, 52, .16), rgba(0, 47, 52, .01) 81.77%, rgba(0, 47, 52, .01));
+    transition: color 0.3s, transform 0.3s;
+}
+
+.item:hover {
+    color: #007bff;
+    transform: scale(1.02);
+}
+
+.bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1150px;
+    width: 100%;
+    margin: 10px auto 0;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex: 3;
+    margin-right: 20px;
+    position: relative;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex: 1;
+}
+
+.location i {
+    margin-right: 8px;
+    color: #002f36;
+}
+
+.search-bar input {
+    flex: 2;
+    padding: 13px 8px;
+    border: 1px solid #ddd;
+    margin-left: 15px;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar .search-button {
+    padding: 13px 15px;
+    background-color: #002f36;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-bar .search-button i {
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.actions .login {
+    color: #002f36;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.actions .sell img {
+    height: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+}
+
+
+.category h5 {
+    margin-left: 90px;
+}
+
+.category a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.category a:hover {
+    color: #1D86D0;
+}
+
+.hero_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero_img img {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.categories-section {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.categories-section h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1000px;
+    margin-left: 100px;
+}
+
+.category-card {
+    text-align: center;
+    width: 120px;
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.category-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    font-weight: 500;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Mobile_phones h2 {
+    text-align: start;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.details h3 {
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.details p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #555;
+    margin-left: 15px;
+}
+
+.details small {
+    color: #555;
+    margin-left: 15px;
+}
+
+.product-category h2 {
+    text-align: start;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#homesCards img {
+    width: 400px;
+    margin-left: -80px;
+}
+
+.footer_image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+
+}
+
+.download-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.download-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.app-preview {
+    max-width: 600px;
+    height: auto;
+}
+
+.download-info {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.download-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003e7e;
+    margin-bottom: 20px;
+}
+
+.store-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.store-buttons a img {
+    height: 40px;
+    object-fit: contain;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #06707b;
+    transition: color 0.3s;
+}
+
+.footer-column .social-icons {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.footer-column .social-icons i {
+    font-size: 15px;
+    color: #06707b;
+    border: 1px solid #002f34;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-column .app-badges img {
+    width: 100px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.footer-bottom {
+    background-color: #002f34;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.footer-bottom p {
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        width: 96%;
+    }
+
+    .hero_img {
+        width: 1023px;
+    }
+
+    .top-row {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .bottom-row {
+        margin-left: 0;
+
+    }
+
+    .categories-section {
+        width: 94%;
+    }
+
+    .category h5 {
+        margin-left: 20px;
+    }
+
+    .category a {
+        margin-left: 20px;
+    }
+
+    .categories-section h1 {
+        margin-left: 20px;
+    }
+
+    .categories {
+        margin-left: 0;
+    }
+
+    .footer-bottom {
+        width: 98%;
+    }
+
+    .download-section {
+        width: 99%;
+    }
+
+    .footer-container {
+        width: 99%;
+    }
+
+    .footer-bottom {
+        width: 98.05%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 10px;
+        width: calc(100% - 20px);
+    }
+
+    .top-row {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .links {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .bottom-row {
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 15px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .location {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .search-bar input {
+        margin-left: 0;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .search-bar input::placeholder {
+        font-size: 10px;
+    }
+
+    .search-bar .search-button {
+        border-radius: 5px;
+        width: 90%;
+    }
+
+    .actions {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .actions .login {
+        margin-left: 0;
+    }
+
+    .category {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .category h5 {
+        margin-left: 10px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .hero_img {
+        width: 774px;
+    }
+
+    .category a {
+        margin: 5px 10px;
+    }
+
+    .categories-section h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .categories {
+        gap: 15px;
+    }
+
+    .category-card {
+        width: 100px;
+    }
+
+    .category-card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .container h2 {
+        font-size: 28px;
+    }
+
+    .Mobile_phones h2,
+    .product-category h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .flex {
+        justify-content: center;
+    }
+
+    .card {
+        width: 45%;
+        min-width: 150px;
+    }
+
+    .download-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .download-info {
+        text-align: center;
+    }
+
+    .store-buttons {
+        justify-content: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-column .social-icons {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        width: 98.3%;
+    }
+
+    .footer-bottom p {
+        margin-right: 0;
+    }
+
+    #homesCards img {
+        width: 500px;
+        margin-left: -80px;
+    }
+
+    .footer_image img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo img {
+        height: 30px;
+    }
+
+    .item {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+
+    .item img {
+        height: 20px;
+    }
+
+    .actions .sell img {
+        height: 45px;
+        margin-left: 10px;
+    }
+
+    .hero_img {
+        width: 100%;
+    }
+
+    .category a {
+        font-size: 13px;
+        margin: 5px;
+    }
+
+    .categories {
+        gap: 10px;
+    }
+
+    .category-card {
+        width: 80px;
+    }
+
+    .category-card img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .category-card p {
+        font-size: 12px;
+    }
+
+    .container h2 {
+        font-size: 24px;
+    }
+
+    .categories-section {
+        width: 90%;
+    }
+
+    .Mobile_phones h2,
+    .product-category h2 {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .details h3 {
+        font-size: 16px;
+    }
+
+    .details p {
+        font-size: 13px;
+    }
+
+    .download-info h3 {
+        font-size: 18px;
+        margin-left: -25px;
+    }
+
+    .download-content img {
+        width: 100%;
+    }
+
+    .store-buttons a img {
+        height: 30px;
+        padding: 10px;
+        margin-left: -30px;
+    }
+
+    .footer-column h4 {
+        font-size: 13px;
+    }
+
+    .footer-column ul li a {
+        font-size: 12px;
+    }
+
+    .footer-column .app-badges img {
+        width: 80px;
+    }
+
+    .footer-bottom {
+        width: 95.8%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .search-bar {
+        margin-left: 35px;
+    }
+
+    .actions {
+        margin-left: 35px;
+    }
+
+    .item {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .hero_img {
+        width: 360px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .Mobile_phones h2,
+    .product-category h2 {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .categories-section {
+        width: 85%;
+    }
+
+    .bottom-row {
+        width: 92%;
+    }
+
+    .footer-bottom {
+        width: 94.7%;
+    }
+}
